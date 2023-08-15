@@ -1,0 +1,5 @@
+<button (click)="contadorService.sum(-1)">-</button>
+<div *ngIf="contadorService.contador % 2 != 0">
+    <p>Contador: {{contadorService.contador}}</p>
+</div>
+<button (click)="contadorService.sum(1)">+</button>
